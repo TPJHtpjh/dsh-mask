@@ -14,11 +14,17 @@ English: a per-preset tool & skill mask for DeepSeek Harness. One `restrict()` c
 
 ## 安装
 
+一条命令即可（实测：全新 profile 从零装上，composed config 里自动出现本插件的 bundle 行）：
+
 ```bash
-git clone https://github.com/TPJHtpjh/dsh-mask.git
+dsh plugin --profile <你的 profile 名> add https://github.com/TPJHtpjh/dsh-mask.git
 ```
 
-然后在 DSH 的插件管理里指向这个目录（`link:` 包）：
+本包不声明任何 build 脚本，所以不会卡在 pnpm 的 `allowBuilds` 授权上。
+
+也可以在应用里装：**Plugins → Add plugin**，填仓库地址或本地目录。
+
+本地开发用 `link:` 目录时走插件管理：
 
 ```
 plugin_manager install_bundle <本仓库的绝对路径>
