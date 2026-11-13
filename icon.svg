@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" role="img" aria-label="Tool and skill masking">
+  <rect width="64" height="64" rx="13" fill="#1e2126"/>
+  <g fill="none" stroke="#8fb4d9" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M15 18h34"/>
+    <path d="M20 18v6a12 12 0 0 0 24 0v-6"/>
+    <path d="M32 36v11"/>
+    <path d="M26 47h12"/>
+  </g>
+  <path d="M44 44l8 8" stroke="#d98f8f" stroke-width="3.2" stroke-linecap="round"/>
+</svg>

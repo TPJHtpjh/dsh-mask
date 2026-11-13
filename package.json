@@ -11,12 +11,17 @@
     "./client": {
       "default": "./lib/client.js"
     },
-    "./package.json": "./package.json"
+    "./package.json": "./package.json",
+    "./icon": "./icon.svg",
+    "./locale/*.json": "./locale/*.json"
   },
+  "icon": "./icon.svg",
   "files": [
     "lib",
     "scripts",
     "docs",
+    "locale",
+    "icon.svg",
     "cordis.patch.yml",
     "README.md",
     "CHANGELOG.md",

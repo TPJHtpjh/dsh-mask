@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "工具与技能屏蔽",
+    "description": "按 agent preset 屏蔽宿主面的工具与技能，用勾选清单配置；保存后受影响的会话在下一个 step 生效。"
+  }
+}

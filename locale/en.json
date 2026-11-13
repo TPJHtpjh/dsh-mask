@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Tool & skill masking",
+    "description": "Mask host-plane tools and skills per agent preset from a checklist panel; saved rules reach live sessions on their next step."
+  }
+}
