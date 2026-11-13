@@ -21,6 +21,7 @@
     "scripts",
     "docs",
     "locale",
+    "assets",
     "icon.svg",
     "cordis.patch.yml",
     "README.md",
