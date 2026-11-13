@@ -1,0 +1,12 @@
+# Runtime artifacts written beside the package by the plugin itself.
+# audit.jsonl records real session ids; provenance-cache.json holds this
+# machine's profile paths and installed package set. Neither belongs in git.
+audit.jsonl
+provenance-cache.json
+
+# Local version snapshots (development history, not source).
+versions/
+
+node_modules/
+*.log
+.DS_Store

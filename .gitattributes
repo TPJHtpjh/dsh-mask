@@ -1,0 +1,5 @@
+# Keep line endings stable across platforms; the plugin's YAML patch and the
+# test suites are read verbatim by the host loader and by node.
+* text=auto eol=lf
+*.png binary
+*.ico binary

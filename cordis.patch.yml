@@ -1,0 +1,3 @@
+- insert:
+    - id: cherry-toolfilter
+      name: '@local/dsh-cherry-toolfilter'

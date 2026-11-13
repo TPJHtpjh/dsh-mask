@@ -1,0 +1,33 @@
+{
+  "name": "@local/dsh-cherry-toolfilter",
+  "version": "2.4.5",
+  "private": true,
+  "type": "module",
+  "license": "Apache-2.0",
+  "description": "Per-preset masking of host-plane tools and skills, driven by row configuration.",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./client": {
+      "default": "./lib/client.js"
+    },
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "lib",
+    "scripts",
+    "docs",
+    "cordis.patch.yml",
+    "README.md",
+    "CHANGELOG.md",
+    "LICENSE"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web"
+    }
+  }
+}
